@@ -1,0 +1,25 @@
+2021-03-20 01:34:10.120  INFO 79282 --- [main] com.example.demo.ECommerceApplication    : Starting ECommerceApplication on Kevins-MacBook with PID 79282 (/Users/admin/Desktop/nd035-c4-Security-and-DevOps-master/starter_code/target/classes started by admin in /Users/admin/Desktop/nd035-c4-Security-and-DevOps-master/starter_code)
+2021-03-20 01:34:10.125  INFO 79282 --- [main] com.example.demo.ECommerceApplication    : No active profile set, falling back to default profiles: default
+2021-03-20 01:34:10.894  INFO 79282 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-20 01:34:10.988  INFO 79282 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82ms. Found 4 repository interfaces.
+2021-03-20 01:34:11.971  INFO 79282 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff70866f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-20 01:34:12.564  INFO 79282 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-20 01:34:12.607  INFO 79282 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-20 01:34:12.608  INFO 79282 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-20 01:34:12.993  INFO 79282 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-20 01:34:12.996  INFO 79282 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2798 ms
+2021-03-20 01:34:13.275  INFO 79282 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-20 01:34:13.459  INFO 79282 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-20 01:34:13.519  INFO 79282 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-20 01:34:13.597  INFO 79282 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-20 01:34:13.598  INFO 79282 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-03-20 01:34:13.755  INFO 79282 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-20 01:34:13.934  INFO 79282 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 01:34:14.796  INFO 79282 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 01:34:15.539  WARN 79282 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 01:34:15.622  INFO 79282 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2842ef02, org.springframework.security.web.context.SecurityContextPersistenceFilter@67a3dd86, org.springframework.security.web.header.HeaderWriterFilter@782dc5, org.springframework.web.filter.CorsFilter@7e63374b, org.springframework.security.web.authentication.logout.LogoutFilter@3731e8b6, com.example.demo.model.security.JWTAuthenticationFilter@aa794a3, com.example.demo.model.security.JWTAuthenticationVerificationFilter@1dce481b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb52131, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20e48e63, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22cb8e5f, org.springframework.security.web.session.SessionManagementFilter@5d20195b, org.springframework.security.web.access.ExceptionTranslationFilter@7ca29311, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25c548d1]
+2021-03-20 01:34:15.759  INFO 79282 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 01:34:15.975  INFO 79282 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-20 01:34:15.978  INFO 79282 --- [main] com.example.demo.ECommerceApplication    : Started ECommerceApplication in 6.515 seconds (JVM running for 7.436)
