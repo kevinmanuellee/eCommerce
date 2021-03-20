@@ -53,6 +53,11 @@ public class UserController {
 		cartRepository.save(cart);
 		user.setCart(cart);
 
+		if(createUserRequest.getPassword() == null || createUserRequest.getConfirmPassword() == null){
+			log.error("password is empty, please provide password");
+			return ResponseEntity.badRequest().build();
+		}
+
 		boolean isIdenticalPassword = false;
 		if(createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
 			isIdenticalPassword = true;
