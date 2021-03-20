@@ -23,3 +23,104 @@
 2021-03-20 01:34:15.759  INFO 79282 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2021-03-20 01:34:15.975  INFO 79282 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2021-03-20 01:34:15.978  INFO 79282 --- [main] com.example.demo.ECommerceApplication    : Started ECommerceApplication in 6.515 seconds (JVM running for 7.436)
+2021-03-20 02:40:40.545  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m26s420ms).
+2021-03-20 03:12:06.379  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m55s791ms).
+2021-03-20 04:05:56.011  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m49s632ms).
+2021-03-20 04:16:12.910  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s830ms).
+2021-03-20 06:16:50.040  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h7s119ms).
+2021-03-20 08:17:44.284  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h24s243ms).
+2021-03-20 09:30:06.020  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m51s726ms).
+2021-03-20 11:12:09.658  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m32s941ms).
+2021-03-20 11:34:56.111  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m45s955ms).
+2021-03-20 11:40:06.098  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m9s989ms).
+2021-03-20 12:16:26.889  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m50s607ms).
+2021-03-20 12:59:51.946  WARN 79282 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s2ms).
+2021-03-20 13:12:48.754  INFO 79282 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 13:12:48.769  INFO 79282 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 13:12:48.837  INFO 79282 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-20 13:12:48.927  INFO 79282 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-20 13:12:55.631  INFO 27198 --- [main] com.example.demo.ECommerceApplication    : Starting ECommerceApplication on Kevins-MacBook with PID 27198 (/Users/admin/Desktop/nd035-c4-Security-and-DevOps-master/starter_code/target/classes started by admin in /Users/admin/Desktop/nd035-c4-Security-and-DevOps-master/starter_code)
+2021-03-20 13:12:55.634  INFO 27198 --- [main] com.example.demo.ECommerceApplication    : No active profile set, falling back to default profiles: default
+2021-03-20 13:12:56.880  INFO 27198 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-20 13:12:57.046  INFO 27198 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145ms. Found 4 repository interfaces.
+2021-03-20 13:12:58.190  INFO 27198 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22c89842] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-20 13:12:58.897  INFO 27198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-20 13:12:58.976  INFO 27198 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-20 13:12:58.977  INFO 27198 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-20 13:12:59.602  INFO 27198 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-20 13:12:59.603  INFO 27198 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3862 ms
+2021-03-20 13:12:59.951  INFO 27198 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-20 13:13:00.186  INFO 27198 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-20 13:13:00.337  INFO 27198 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-20 13:13:00.956  INFO 27198 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-20 13:13:00.957  INFO 27198 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-03-20 13:13:01.689  INFO 27198 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-20 13:13:02.122  INFO 27198 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 13:13:06.329  INFO 27198 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 13:13:08.405  WARN 27198 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 13:13:08.526  INFO 27198 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5810772a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a9ff419, org.springframework.security.web.header.HeaderWriterFilter@68229a6, org.springframework.web.filter.CorsFilter@4eacb6d1, org.springframework.security.web.authentication.logout.LogoutFilter@27b7204, com.example.demo.model.security.JWTAuthenticationFilter@3ccefe1b, com.example.demo.model.security.JWTAuthenticationVerificationFilter@a926db4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6493f780, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e1598e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51e0f2eb, org.springframework.security.web.session.SessionManagementFilter@477bea57, org.springframework.security.web.access.ExceptionTranslationFilter@510203de, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b9ed99d]
+2021-03-20 13:13:09.071  INFO 27198 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 13:13:09.638  INFO 27198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-20 13:13:09.641  INFO 27198 --- [main] com.example.demo.ECommerceApplication    : Started ECommerceApplication in 15.045 seconds (JVM running for 16.471)
+2021-03-20 13:36:28.749  INFO 27198 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 13:36:28.777  INFO 27198 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 13:36:28.836  INFO 27198 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-20 13:36:28.865  INFO 27198 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-20 13:36:39.891  INFO 32641 --- [main] com.example.demo.ECommerceApplication    : Starting ECommerceApplication on Kevins-MacBook with PID 32641 (/Users/admin/Desktop/nd035-c4-Security-and-DevOps-master/starter_code/target/classes started by admin in /Users/admin/Desktop/nd035-c4-Security-and-DevOps-master/starter_code)
+2021-03-20 13:36:39.896  INFO 32641 --- [main] com.example.demo.ECommerceApplication    : No active profile set, falling back to default profiles: default
+2021-03-20 13:36:41.321  INFO 32641 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-20 13:36:41.472  INFO 32641 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135ms. Found 4 repository interfaces.
+2021-03-20 13:36:42.648  INFO 32641 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e751c732] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-20 13:36:43.535  INFO 32641 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-20 13:36:43.702  INFO 32641 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-20 13:36:43.703  INFO 32641 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-20 13:36:44.147  INFO 32641 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-20 13:36:44.147  INFO 32641 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4177 ms
+2021-03-20 13:36:44.389  INFO 32641 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-20 13:36:44.690  INFO 32641 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-20 13:36:44.769  INFO 32641 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-20 13:36:44.846  INFO 32641 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-20 13:36:44.847  INFO 32641 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-03-20 13:36:45.111  INFO 32641 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-20 13:36:45.288  INFO 32641 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 13:36:46.802  INFO 32641 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 13:36:47.659  WARN 32641 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 13:36:47.754  INFO 32641 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@279ab15e, org.springframework.security.web.context.SecurityContextPersistenceFilter@477bea57, org.springframework.security.web.header.HeaderWriterFilter@510203de, org.springframework.web.filter.CorsFilter@571c2ed8, org.springframework.security.web.authentication.logout.LogoutFilter@1ef5cde4, com.example.demo.model.security.JWTAuthenticationFilter@5810772a, com.example.demo.model.security.JWTAuthenticationVerificationFilter@4eacb6d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a9ff419, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@430212cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ccefe1b, org.springframework.security.web.session.SessionManagementFilter@68229a6, org.springframework.security.web.access.ExceptionTranslationFilter@7455204c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bdf94f2]
+2021-03-20 13:36:47.972  INFO 32641 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 13:36:48.287  INFO 32641 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-20 13:36:48.289  INFO 32641 --- [main] com.example.demo.ECommerceApplication    : Started ECommerceApplication in 9.311 seconds (JVM running for 10.499)
+2021-03-20 13:36:56.899  INFO 32641 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-20 13:36:56.900  INFO 32641 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-20 13:36:56.918  INFO 32641 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2021-03-20 13:36:57.188  INFO 32641 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : username set with Kevin
+2021-03-20 13:36:57.344  INFO 32641 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:07.199  INFO 32641 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : username set with Manuel
+2021-03-20 13:37:07.306  INFO 32641 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:12.858  INFO 32641 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : username set with Udacity
+2021-03-20 13:37:12.954  INFO 32641 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:19.331  INFO 32641 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : username set with eCommerce
+2021-03-20 13:37:19.489  INFO 32641 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:27.471  INFO 32641 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : username set with Application
+2021-03-20 13:37:27.570  INFO 32641 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:36.292  INFO 32641 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : username set with Splunk
+2021-03-20 13:37:36.378  INFO 32641 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:44.445  INFO 32641 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : username set with Tomcat
+2021-03-20 13:37:44.694  INFO 32641 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:50.891  INFO 32641 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : username set with Container
+2021-03-20 13:37:50.996  INFO 32641 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:37:57.457  INFO 32641 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : username set with Docker
+2021-03-20 13:37:57.573  INFO 32641 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:38:10.733  INFO 32641 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : username set with Jenkins
+2021-03-20 13:38:10.878  INFO 32641 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : user created
+2021-03-20 13:38:15.846  INFO 32641 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-03-20 13:38:28.338  INFO 32641 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : cart updated - item added
+2021-03-20 13:38:37.171  INFO 32641 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : order submitted
+2021-03-20 13:39:00.032  INFO 32641 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : getOrdersForUser: 1
+2021-03-20 13:39:16.582  INFO 32641 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 13:39:16.586  INFO 32641 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 13:39:16.592  INFO 32641 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-20 13:39:16.602  INFO 32641 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
